@@ -20,7 +20,7 @@ data class NetworkToken(
 data class ParseResponse(
     val tokens: List<NetworkToken>,
     val ast: String,
-    val cfg: List<CFGNode> // ✅ proper type
+    val cfg: List<CFGNode> 
 
 )
 
